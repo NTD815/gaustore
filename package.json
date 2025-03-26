@@ -20,7 +20,8 @@
     "store",
     "singleton",
     "react",
-    "typescript"
+    "typescript",
+    "events subscription"
   ],
   "author": "k4tz",
   "license": "MIT",
