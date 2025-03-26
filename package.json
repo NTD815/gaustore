@@ -1,7 +1,7 @@
 {
   "name": "gaus",
   "version": "1.0.0",
-  "description": "A singleton-based, pub-sub authentication store with React hook support.",
+  "description": "A singleton-based, event-driven authentication store with React hook support.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
