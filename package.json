@@ -1,6 +1,6 @@
 {
   "name": "gaustore",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A singleton-based, events-driven authentication store with React hook support.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,7 +26,7 @@
   "author": "k4tz",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0"
+    "react": ">=17.0.0"
   },
   "devDependencies": {
     "@types/react": "^19.0.12",
