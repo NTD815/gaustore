@@ -1,0 +1,24 @@
+{
+  "name": "gaus",
+  "version": "1.0.0",
+  "description": "A singleton-based, pub-sub authentication store with React hook support.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NTD815/gaus.git"
+  },
+  "keywords": ["authentication", "store", "singleton", "react", "typescript"],
+  "author": "k4tz",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
