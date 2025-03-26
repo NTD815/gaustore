@@ -5,13 +5,13 @@ A singleton-based, event-driven authentication store with React hook support.
 ## Installation
 
 ```bash
-npm install gaus
+npm install gaustore
 ```
 
 ## Usage
 
 ```tsx
-import { authStore, useAuth, User } from 'gaus';
+import { authStore, useAuth, User } from 'gaustore';
 
 // Set user data
 authStore.setUser({ id: 1, name: 'John Doe' });

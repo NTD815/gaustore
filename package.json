@@ -1,24 +1,37 @@
 {
-  "name": "gaus",
+  "name": "gaustore",
   "version": "1.0.0",
-  "description": "A singleton-based, event-driven authentication store with React hook support.",
+  "description": "A singleton-based, events-driven authentication store with React hook support.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NTD815/gaus.git"
+    "url": "git+https://github.com/NTD815/gaustore.git"
   },
-  "keywords": ["authentication", "store", "singleton", "react", "typescript"],
+  "keywords": [
+    "authentication",
+    "store",
+    "singleton",
+    "react",
+    "typescript"
+  ],
   "author": "k4tz",
   "license": "MIT",
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
+    "@types/react": "^19.0.12",
     "typescript": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
