@@ -1,10 +1,10 @@
 import { useSyncExternalStore } from 'react';
 import { authStore, User } from './authStore';
 
-export function useAuth(): User | null {
+export function useAuth<T extends User>(): T | null {
   return useSyncExternalStore(
     (callback : () => void) => authStore.subscribe('change', callback),
-    () => authStore.getUser(),
+    () => authStore.getUser() as T | null,
     () => null
   );
 }

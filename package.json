@@ -1,6 +1,6 @@
 {
   "name": "gaustore",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A singleton-based, events-driven authentication store with React hook support.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

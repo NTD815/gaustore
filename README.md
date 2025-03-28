@@ -31,6 +31,20 @@ function Profile() {
     </div>
   );
 }
+
+//Extend the User type 
+interface MyUser extends User{
+  key: string
+}
+
+//then store and get
+authStore.setUser({ id:1, name:'John Doe', key:'Value'});
+
+//get from hook for reactive state with extended type
+const user = useAuth<MyUser>();
+
+//or directly from store
+const userFromStore = authStore.getUser<MyUser>();
 ```
 
 ## API

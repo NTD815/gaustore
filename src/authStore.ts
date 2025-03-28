@@ -42,8 +42,8 @@ class AuthStore {
     }
   }
 
-  getUser() {
-    return this.user;
+  getUser<T extends User>(): T | null {
+    return this.user as T | null;
   }
 
   isAuthenticated() {
